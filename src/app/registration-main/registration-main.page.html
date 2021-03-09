@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Let's Start
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button  defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-icon name="star-outline" slot="start" style="margin-left: 12%; color: greenyellow;"></ion-icon>
+    <ion-icon name="star-outline" slot="end" style="margin-right: 28.5%; color: greenyellow;"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row style="margin-top: 45%;">
+      <ion-col>
+        <ion-button routerLink="/registration" routerDirection="root" expand="block" color="warning">Register</ion-button>
+        
+        <span  class="or">or</span>
+        <div class="hr"></div>
+        <span class="already" routerLink="/login" routerDirection="root">Already have an account?</span>
+
+        <ion-button routerLink="/login" routerDirection="root" expand="block" color="primary">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>

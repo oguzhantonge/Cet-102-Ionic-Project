@@ -1,0 +1,7 @@
+{
+  "name": "ffun101",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

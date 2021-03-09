@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Games</ion-title>
+    <ion-icon name="game-controller-outline" color="warning" slot="end" style="position: absolute;margin-left: 58%; font-size: 180%;"></ion-icon>
+
+
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="true"></ion-menu-button>
+    </ion-buttons>
+
+    
+    <ion-buttons slot="end" style="margin-right: 3%;">
+      <label routerLink="/tabs/tabs/games" routerDirection="root">Back</label>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <h2 style="margin-left: 26%;">FunColorgate</h2>
+    </ion-item>
+  
+    <ion-card-content>
+      FunColorgate oyununda oyun esnasında duydugunuz renklere göre doğru renk olan bölmelere yönelme oyunudur.
+      Oyun iki kişi oynanır.(3-4 yaş için uygundur)
+      <ion-item>
+        <h2 style="margin-left: 20%;">Geliştirdiği Yetenekler</h2>
+      </ion-item>     
+      - Renkleri öğretiyor<br>
+      - Hızlı düşünme becerisini arttırıyor<br>
+      - Refleksleri geliştiriyor<br>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    
+  
+    <ion-card-content>
+      <video controls class="video">
+        <source src="../../assets/colo.mp4" type="video/mp4;">
+
+      </video>
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+  <ion-card>
+    <ion-item>
+      <h2 style="margin-left: 36%;">Gallery</h2>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide>
+          <img src="../../assets/colorgates1.png" alt="ion">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/cologates2.png" alt="ion">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/cologates2.png" alt="ion">
+        </ion-slide>
+      </ion-slides>
+    </ion-card-content>
+  </ion-card>
+
+
+  
+  
+</ion-content>

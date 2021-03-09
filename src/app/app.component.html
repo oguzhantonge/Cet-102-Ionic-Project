@@ -1,0 +1,68 @@
+<ion-app>
+  <!--<ion-router-outlet></ion-router-outlet>-->
+   
+  
+  <ion-menu contentId="menum" side="start">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+        <ion-item routerLink="/tabs/tabs/funhome" routerDirection="root">
+          <ion-icon name="home-outline" style="margin-left: 2%;" color="primary"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/tabs/tabs/games" routerDirection="root">
+          <ion-icon name="game-controller-outline" style="margin-left: 2%;" color="primary"></ion-icon>
+          <ion-label>Games</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/tabs/tabs/profile" routerDirection="root">
+          <ion-icon name="person-outline" style="margin-left: 2%;" color="primary"></ion-icon>
+          <ion-label>Profile</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+
+        <ion-item routerLink="/tabs/tabs/messages" routerDirection="root">
+          <ion-icon name="mail-outline" style="margin-left: 2%;" color="primary"></ion-icon>
+          <ion-label>Messages</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/tabs/tabs/friends" routerDirection="root">
+          <ion-icon name="person-outline" style="margin-left: 2%;" color="primary"></ion-icon>
+          <ion-label>Friends</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/tabs/tabs/settin" routerDirection="root">
+          <ion-icon name="settings-outline" style="margin-left: 2%;" color="primary"></ion-icon>
+          <ion-label>Settings</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+        <ion-item routerLink="/home" routerDirection="root">
+          <ion-icon name="log-out-outline" color="danger" style="margin-left: 2%;"></ion-icon>
+          <ion-label color="danger" style="margin-left: 5%;">Log out</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+
+
+  <ion-router-outlet id="menum" main></ion-router-outlet>
+</ion-app>

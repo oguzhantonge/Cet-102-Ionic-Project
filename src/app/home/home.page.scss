@@ -1,0 +1,61 @@
+
+ion-slides{
+  background-color:#e9e9e9;
+}
+ion-slides {
+  --bullet-font-size:30%;
+  --bullet-background-active: red;
+  --bullet-opacity:.9;
+}
+
+.ayarlama{
+  width: 100%;
+  height: 100%;
+}
+.diag {
+  position: absolute;
+  top:25%;
+}
+
+ion-icon {
+  margin-top: 10%;
+  font-size:7em;
+}
+
+h2 {
+    margin-top:80% !important;
+    font-weight:bold;
+    font-size:1em;
+}
+
+p {
+    width:80%;
+    display:block;
+    margin: 0 auto;
+    font-size:110%;
+}
+
+#atla {
+  position:absolute;
+  bottom: 5%;
+  color: blue;
+  font-size: 100%;
+  width:100%;
+  background:none !important;
+  text-align:center;
+  
+  
+}
+
+video {
+  position: fixed;
+  
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+  transform: translateX(-50%) translateY(-50%);
+}

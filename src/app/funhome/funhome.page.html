@@ -1,0 +1,253 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Funucation</ion-title>
+    <!--<ion-icon name="body-outline" color="warning" slot="end" style="position: absolute;margin-left: 65%; font-size: 180%;"></ion-icon> -->
+
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  
+    <ion-buttons slot="end" style="margin-right: 3%;">
+      <label routerLink="/login" routerDirection="root">Back</label>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+<h2 style="text-align: center;">Funucation Games</h2>
+
+<ion-card>
+  <ion-item>
+    
+    <ion-icon (click)="presentAlert()" name="add-circle-outline" slot="end" color="primary" style="font-size: 200%;"></ion-icon>
+  </ion-item>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <img src="../../assets/math1.png" alt="ion">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/math2.png" alt="ion">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/math2.png" alt="ion">
+    </ion-slide>
+  </ion-slides>
+  <ion-card-header>
+    <ion-card-title style="text-align: center;">FunMath101</ion-card-title>
+  </ion-card-header>
+  <ion-card-content style="text-align: center;">
+    FunMath oyunu ile eğlenceli avatarları haraket ettirerek karşınıza gelen dört işlemlerden 
+en yüksek olanı bulmaya çalışabilirsiniz.Oyun sonunda en fazla puanı toplayan kazanır.
+     Oyun iki kişi oynanır.
+     
+  </ion-card-content>
+
+
+
+  <ion-row class="cardfooter" style="margin-left: 5%;">
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+  
+      </ion-button>
+    </ion-col>
+    
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-down-outline" large></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button routerLink="/comments/math101" routerDirection="root">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button routerLink="/tabs/tabs/games/funmath101" routerDirection="root">
+        <ion-icon name="arrow-redo-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+
+<ion-card>
+  <ion-item>
+    <ion-icon (click)="presentAlert()" name="add-circle-outline" slot="end" color="primary" style="font-size: 200%;"></ion-icon>
+
+  </ion-item>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <img src="../../assets/maze1.png" alt="ion">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/maze2.png" alt="ion">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/maze2.png" alt="ion">
+    </ion-slide>
+  </ion-slides>
+  <ion-card-header>
+    <ion-card-title style="text-align: center;">FunMaze</ion-card-title>
+  </ion-card-header>
+  <ion-card-content style="text-align: center;">
+   FunMaze oyunu eğlenceli avatarları haraket ettirerek labirenti karşınızdaki oyuncudan daha erken bitirmeye çalıştığınız
+   bir oyundur.Oyun esnasında labirent içerisinde yer alan kutucukları toplayarak rakibinizi dondurma özelliğine sahip
+   olabilirsiniz.Oyun iki kişi oynanır.
+  </ion-card-content>
+
+
+
+  <ion-row class="cardfooter" style="margin-left: 5%;">
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+  
+      </ion-button>
+    </ion-col>
+    
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-down-outline" large></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button  routerLink="/comments/maze" routerDirection="root">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button routerLink="/tabs/tabs/games/funmaze" routerDirection="root">
+        <ion-icon name="arrow-redo-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+<ion-card>
+  <ion-item>
+    <ion-icon (click)="presentAlert()" name="add-circle-outline" slot="end" color="primary" style="font-size: 200%;"></ion-icon>
+
+  </ion-item>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <img src="../../assets/colorgates1.png" alt="ion">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/cologates2.png" alt="ion">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/cologates2.png" alt="ion">
+    </ion-slide>
+  </ion-slides>
+  <ion-card-header>
+    <ion-card-title style="text-align: center;">FunColorgate</ion-card-title>
+  </ion-card-header>
+  <ion-card-content style="text-align: center;">
+   FunColorgate oyununda oyun esnasında duydugunuz renklere göre doğru renk olan bölmelere yönelme oyunudur.
+   Oyun iki kişi oynanır.
+  </ion-card-content>
+
+
+
+  <ion-row class="cardfooter" style="margin-left: 5%;">
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+  
+      </ion-button>
+    </ion-col>
+    
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-down-outline" large></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button  routerLink="/comments/colorgate" routerDirection="root">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button routerLink="/tabs/tabs/games/funcologate" routerDirection="root">
+        <ion-icon name="arrow-redo-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+
+<ion-card>
+  <ion-item>
+     <ion-icon (click)="presentAlert()" name="add-circle-outline" slot="end" color="primary" style="font-size: 200%;"></ion-icon>
+
+  </ion-item>
+
+  <img src="../../assets/img/standardboard.webp" alt="ion">
+  <ion-card-header>
+    <ion-card-title style="text-align: center;">Chess Game</ion-card-title>
+  </ion-card-header>
+  <ion-card-content style="text-align: center;">
+    Chess oyunu ile hem eğlenceli vakit geçirip hem de kendinizi eğitme fırsatı bulabilirsiniz.Oyuna bir arkadaşınla katılabilirsin.
+  </ion-card-content>
+
+
+
+  <ion-row class="cardfooter" style="margin-left: 5%;">
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+  
+      </ion-button>
+    </ion-col>
+    
+    <ion-col>
+      <ion-button>
+        <ion-icon name="thumbs-down-outline" large></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button  routerLink="/comments/chess" routerDirection="root">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button routerLink="/tabs/tabs/games/funchess" routerDirection="root">
+        <ion-icon name="arrow-redo-outline"></ion-icon>
+        
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+
+
+
+
+
+
+</ion-content>

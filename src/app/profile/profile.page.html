@@ -1,0 +1,116 @@
+<!--
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title> My Profile</ion-title>
+    <ion-icon name="person-outline" color="warning" slot="end" style="position: absolute;margin-left: 65%; font-size: 180%;"></ion-icon>
+    <ion-buttons slot="start">
+      <ion-back-button  defaultHref="login"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+-->
+<ion-content>
+<div class="container"> 
+<div class="containerr">
+  <ion-buttons>
+  <ion-back-button class="butonum1" defaultHref="/tabs"></ion-back-button>
+</ion-buttons>
+
+  <ion-icon name="settings-outline" routerLink="/tabs/tabs/settin" routerDirection="root" class="butonum"></ion-icon>
+</div>
+<div class="container2">
+<h3 style="margin-top: 28%;margin-left: 7%; font-weight: bold;">My Profile</h3>
+
+<ion-icon name="camera" class="box1" (click)="takePicture()"></ion-icon>
+
+    <img [src]="photo" class="pp" />
+
+    <ion-icon name="person-circle-outline"  class="iconp" ></ion-icon>
+
+
+<h4 class="h4">Yağız Çetin (yagiz.cetin)</h4>
+<p class="paragraf">5 yaşında &  Müzik and Football <br>
+    İstanbul,Türkiye  </p>
+
+<ion-row style="text-align: center; margin-top: 11%;">
+  <ion-col>
+<p class="p1">Games</p>
+<ion-badge>5</ion-badge>
+  </ion-col>
+  <ion-col>
+    <p class="p1">Friends</p>
+    <ion-badge>33</ion-badge>
+  </ion-col>
+  <ion-col>
+    <p class="p1">Succsess</p>
+    <ion-badge>22</ion-badge>
+  </ion-col>
+</ion-row>
+</div>
+
+
+</div>
+<ion-list>
+  <ion-list-header>
+    <ion-label>
+      About Me
+    </ion-label>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Gender</ion-label>
+    <ion-select placeholder="Select One">
+      <ion-select-option value="f">Female</ion-select-option>
+      <ion-select-option value="m">Male</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>E-mail</ion-label>
+    <ion-input type="text" placeholder="yagız.cetin@g....com" style="margin-left:35%;">
+      
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Username</ion-label>
+    <ion-input type="text" placeholder="yagiz.cetin" style="margin-left:49%;">
+      
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Phone Number</ion-label>
+    <ion-input type="number" placeholder="05XX XXX XX XX" style="margin-left:22%;">
+      
+    </ion-input>
+  </ion-item>
+  
+  
+  <ion-item>
+    <ion-label>Height(cm)</ion-label>
+    <ion-input type="number" placeholder="150" style="margin-left:58%;">
+      
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Weight(Kg)</ion-label>
+    <ion-input type="number" placeholder="35" style="margin-left:58%;">
+      
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Hair Color</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+</ion-list>
+   
+
+</ion-content> 
+    
+
+

@@ -1,0 +1,103 @@
+
+
+.container{
+    background-image: url(../../assets/img/man-standing-on-sea-shore-4007605.jpg);
+    background-size: cover;
+    border-radius: 2%;
+}
+.container1{
+    border: 1px solid;
+    margin-bottom: 127%;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 1px 1px;
+
+}
+.box1{
+  text-align: center;
+  border-radius: 50px;
+  font-size: 180%;
+  z-index: 1000;
+  position: absolute;
+  color: #26a86b;
+  
+  margin-left: 46%;
+  margin-top: 22%;
+ 
+}
+.iconp{
+  border-radius: 100px;
+  font-size: 500%;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 2%;
+
+}
+
+.pp{
+  margin-top: 2%;
+  margin-left: 2%;
+  z-index: 999;
+  position: absolute;
+  border-radius: 100px;
+ width: 83px;
+ height: 82px; 
+}
+
+ion-card{
+    margin-bottom: 75%;
+}
+img {
+    border-radius: 50%;
+    width: 25%;
+    position: absolute;
+    top: 22%;
+    left: 37%;
+
+  }
+  .containerr{
+      margin-left: 5%;
+  }
+  .butonum1{
+      position: absolute;
+      margin-top: 18%;
+  }
+  .butonum{
+    position:absolute;
+    margin-left: 80%;
+    font-size: 140%;
+     color: blue;
+     margin-top: 15%;
+  }
+  .h4{
+    margin-top: 35%; 
+    margin-left: 22%;
+    font-weight: bold;
+  }
+  .paragraf{
+    position:absolute;
+    margin-left: 25%; 
+    margin-top: -1%;
+    font-size: 80%; 
+    
+  }
+  .p1{
+    font-size: 80%; 
+    
+  }
+  .container2{
+      border-bottom: 1px solid;
+      border-radius: 5%;
+      box-shadow: 1px 5px #caf5f5;
+
+  }
+  .round {
+    left: 42.9%;
+    top: 37%;
+    position: absolute;
+  
+    --border-radius: 50%;
+    --vertical-align: middle;
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }

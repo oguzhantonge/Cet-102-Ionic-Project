@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Games</ion-title>
+    <ion-icon name="game-controller-outline" color="warning" slot="end" style="position: absolute;margin-left: 58%; font-size: 180%;"></ion-icon>
+
+
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="true"></ion-menu-button>
+    </ion-buttons>
+
+    
+    <ion-buttons slot="end" style="margin-right: 3%;">
+      <label routerLink="/tabs/tabs/games" routerDirection="root">Back</label>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <h2 style="margin-left: 26%;">Chess Game</h2>
+    </ion-item>
+  
+    <ion-card-content>
+      Chess oyunu ile hem eğlenceli vakit geçirip hem de kendinizi eğitme fırsatı bulabilirsiniz.Oyuna bir arkadaşınla katılabilirsin.
+      (4-8 yaş için uygundur)
+      <ion-item>
+        <h2 style="margin-left: 20%;">Geliştirdiği Yetenekler</h2>
+      </ion-item>     
+     
+      -  Analitik zekayı geliştiriyor<br>
+      
+      -Hızlı düşünme becerisini arttırıyor
+    </ion-card-content>
+  </ion-card>
+
+  
+
+
+
+  <ion-card>
+    
+  
+    <ion-card-content>
+      <video controls class="video">
+        <source src="../../assets/chessgame.mp4" type="video/mp4;">
+
+      </video>
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+  <ion-card>
+    <ion-item>
+      <h2 style="margin-left: 36%;">Gallery</h2>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide>
+          <img src="../../assets/img/standardboard.webp" alt="ion">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/img/standardboard.webp" alt="ion">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/img/standardboard.webp" alt="ion">
+        </ion-slide>
+      </ion-slides>
+    </ion-card-content>
+  </ion-card>
+
+
+
+  
+  
+</ion-content>

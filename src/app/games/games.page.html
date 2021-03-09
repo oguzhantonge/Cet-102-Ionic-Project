@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Games</ion-title>
+    <ion-icon name="game-controller-outline" color="warning" slot="end" style="position: absolute;margin-left: 58%; font-size: 180%;"></ion-icon>
+
+
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="true"></ion-menu-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-searchbar (ionInput)="FilterJSONData($event)"></ion-searchbar>
+
+  <ion-list>
+    
+   <!-- <ion-item (click)="selectVal(item.name)" *ngFor="let item of jsonData" routerLink="./funmath101" routerDirection="root">
+      {{item.name}} 
+     </ion-item>
+     -->
+     <ion-item routerLink="./funmath101" routerDirection="root">
+      <ion-label>FunMath101</ion-label>
+    </ion-item>
+     <ion-item routerLink="./funmaze" routerDirection="root">
+      <ion-label>FunMaze</ion-label>
+    </ion-item>
+    <ion-item routerLink="./funcologate" routerDirection="root">
+      <ion-label>FunColorgate</ion-label>
+    </ion-item>
+    <ion-item routerLink="./funchess" routerDirection="root">
+      <ion-label>FunChess</ion-label>
+    </ion-item>
+  
+  </ion-list>
+  
+    
+  </ion-content>

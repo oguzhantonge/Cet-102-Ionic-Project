@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Log In</ion-title>
+    <ion-icon name="key-outline" color="warning" slot="end" style="position: absolute;margin-left: 58%; font-size: 160%;"></ion-icon>
+    <ion-buttons slot="start">
+      <ion-back-button  defaultHref="registration"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form style="margin-top: 5%;">
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-toolbar>
+        <ion-button type="submit" color="danger" expand="block" routerLink="/tabs" routerDirection="root">Sign In</ion-button>
+        <ion-icon name="log-in-outline" slot="end" color="warning" style="position: absolute;margin-left: 55%; font-size: 180%;"></ion-icon>
+      </ion-toolbar>
+      <ion-row>
+<ion-col size="6">
+  <ion-item>
+    <label style="font-size: 85%;">Remember me</label>
+    <ion-checkbox color="primary" slot="end"></ion-checkbox>
+  
+  </ion-item>
+    </ion-col>
+    <ion-col size="6">
+      <ion-item>
+        <a [routerLink]="['/forgot-password']" class="small-text" col="6" style="text-decoration: none; font-size: 83%;margin-left: 10%;">Forgot Password?</a>
+      </ion-item>
+      </ion-col>
+      </ion-row>
+     
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>

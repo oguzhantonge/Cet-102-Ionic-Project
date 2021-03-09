@@ -1,0 +1,111 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Funucation</ion-title>
+    <!--<ion-icon name="body-outline" color="warning" slot="end" style="position: absolute;margin-left: 65%; font-size: 180%;"></ion-icon> -->
+
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  
+    <ion-buttons slot="end" style="margin-right: 3%;">
+      <label routerLink="/tabs/tabs/funhome" routerDirection="root">Back</label>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h2 style="text-align: center;">Funucation Games</h2>
+
+  <ion-card>
+    <ion-item>
+      
+    </ion-item>
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <img src="../../assets/math1.png" alt="ion">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../assets/math2.png" alt="ion">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../assets/math2.png" alt="ion">
+      </ion-slide>
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-title style="text-align: center;">FunMath101</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="text-align: center;">
+      FunMath oyunu ile eğlenceli avatarları haraket ettirerek karşınıza gelen dört işlemlerden 
+      en yüksek olanı bulmaya çalışabilirsiniz.Oyun sonunda en fazla puanı toplayan kazanır.
+           Oyun iki kişi oynanır.
+     
+
+    </ion-card-content>
+    <ion-row class="cardfooter" style="margin-left: 5%;">
+      <ion-col>
+        <ion-button>
+          <ion-icon name="thumbs-up-outline"></ion-icon>
+    
+        </ion-button>
+      </ion-col>
+      
+      <ion-col>
+        <ion-button>
+          <ion-icon name="thumbs-down-outline" large></ion-icon>
+          
+        </ion-button>
+      </ion-col>
+  
+      <ion-col>
+        <ion-button>
+          <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+          
+        </ion-button>
+        <ion-icon name="caret-down-outline" style="font-size: 320%;padding-left: 6%;"></ion-icon>
+      </ion-col>
+  
+      <ion-col>
+        <ion-button routerLink="/tabs/tabs/games/funmath101" routerDirection="root">
+          <ion-icon name="arrow-redo-outline"></ion-icon>
+          
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  
+  
+    
+<ion-card-content>
+    <ion-row style="margin-bottom: 5%;">
+      <ion-col size="4">
+        
+        <img src="../../assets/img/img_avatar.png">
+        <p style="position: absolute;top: 101%;margin-left: 40%;">Ali </p>
+      
+      </ion-col>
+      <ion-col size="8">
+Matematik çok zevkliymiş
+      </ion-col>
+    </ion-row>
+    <ion-row style="margin-top: 8%;">
+      <ion-col size="4">
+        <img src="../../assets/img/img_avatar.png">
+        <p style="position: absolute;top: 101%;margin-left: 33%;">Ayşe </p>
+
+      </ion-col>
+      <ion-col size="8">
+Hep birinci oluyorum :D
+      </ion-col>
+    </ion-row>
+    <ion-row style="margin-top: 8%;">
+      <ion-col size="4">
+        <img src="../../assets/img/img_avatar.png">
+        <p style="position: absolute;top: 101%;margin-left: 32%;">Batu </p>
+
+      </ion-col>
+      <ion-col size="8">
+Oyun çook güzel
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+  </ion-card>
+</ion-content>
